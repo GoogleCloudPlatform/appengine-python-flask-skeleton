@@ -20,6 +20,6 @@ def page_not_found(e):
 
 
 @app.errorhandler(500)
-def page_not_found(e):
+def internal_server_error(e):
     """Return a custom 500 error."""
     return 'Sorry, unexpected error: {}'.format(e), 500
