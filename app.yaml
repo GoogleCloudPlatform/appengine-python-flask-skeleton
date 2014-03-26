@@ -6,7 +6,7 @@
 # TODO: Enter your application id below. If you have signed up
 # using cloud.google.com/console use the "project id" for your application
 # id.
-application: your-application-id-here
+application: python-flask-gae
 version: 1
 runtime: python27
 api_version: 1
@@ -33,6 +33,6 @@ handlers:
 # of the App Engine SDK don't need to be listed here, instead add them to your
 # project directory, either as a git submodule or as a plain subdirectory.
 # TODO: List any other App Engine SDK libs you may need here.
-#libraries:
-#- name: jinja2
-#  version: latest
+libraries:
+- name: jinja2
+  version: 2.6
