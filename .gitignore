@@ -85,6 +85,7 @@ ENV/
 
 # everything in venv but requirements
 !venv/*requirements.txt
+!venv/init.sh
 
 # Spyder project settings
 .spyderproject
