@@ -1,0 +1,10 @@
+# This requirements file lists all third-party dependencies for this project on dev environment.
+# Depencies required for production enviroment must be placed at requirements.txt
+# which this file also refer to
+#
+# Run 'pip install -r dev_requirements.txt -t ../appengine/lib/' to install these dependencies
+# in `lib/` subdirectory.
+#
+# Note: The `lib` directory is added to `sys.path` by `appengine_config.py`.
+mock==2.0.0
+-r requirements.txt
