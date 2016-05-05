@@ -16,6 +16,7 @@ downloads/
 eggs/
 .eggs/
 lib/
+appengine/lib/
 lib64/
 parts/
 sdist/
@@ -79,8 +80,11 @@ celerybeat-schedule
 .env
 
 # virtualenv
-venv/
+venv/*
 ENV/
+
+# everything in venv but requirements
+!venv/*requirements.txt
 
 # Spyder project settings
 .spyderproject
